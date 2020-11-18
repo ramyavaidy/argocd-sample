@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Route
-metadata:
-  name: guestbook-ui
-spec:
-  host: guestbook-ui-dc2-tools.isdc20-0ce42e8480356580312b8efcc5f21aad-0001.us-south.containers.appdomain.cloud
-  to:
-    kind: Service
-    name: guestbook-ui
