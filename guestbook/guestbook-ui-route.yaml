@@ -7,5 +7,3 @@ spec:
   to:
     kind: Service
     name: guestbook-ui
-  tls:
-    termination: edge
